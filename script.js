@@ -1,9 +1,9 @@
 $(document).ready(function () {
-   let projectNumber = 1;
-   let pName = ["Brewery Locator"];
-   let pDes = ["Usage of serverside APIs, jQuery and Pure framework"];
-   let pImage = ["mugs.jpg"];
-   let pLink = ["https://j-favorito.github.io/Project-1/"]
+   let projectNumber = 3;
+   let pName = ["Brewery Locator","Scheduler","Password Generator"];
+   let pDes = ["Usage of serverside APIs, jQuery and Pure framework","Usage of local storage, basic js, and third-party API","Usage of basic JavaScript"];
+   let pImage = ["mugs.jpg","C:\Users\16125\Desktop\Portfolio\portfolio\iconfinder_calendar_285670.png","C:\Users\16125\Desktop\Portfolio\portfolio\733219.jpg"];
+   let pLink = ["https://j-favorito.github.io/Project-1/","https://j-favorito.github.io/Homework-5/","https://j-favorito.github.io/Homework-3/"]
    console.log("script is working");
    for (let i = 0; i < projectNumber; i++) {
       let listElement = $("<a>");

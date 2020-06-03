@@ -1,9 +1,9 @@
 $(document).ready(function () {
-   let projectNumber = 4;
-   let pName = ["Brewery Locator","Scheduler","Password Generator","Note Maker"];
-   let pDes = ["Usage of serverside APIs, jQuery and Pure framework","Usage of local storage, basic js, and third-party API","Usage of basic JavaScript","Usage of Node and Express"];
-   let pImage = ["mugs.jpg","C:\Users\16125\Desktop\Portfolio\portfolio\iconfinder_calendar_285670.png","C:\Users\16125\Desktop\Portfolio\portfolio\733219.jpg","#"];
-   let pLink = ["https://j-favorito.github.io/Project-1/","https://j-favorito.github.io/Homework-5/","https://j-favorito.github.io/Homework-3/","https://favorite-note-taker.herokuapp.com/"]
+   let projectNumber = 5;
+   let pName = ["Brewery Locator","Scheduler","Password Generator","Note Taker","Burger App"];
+   let pDes = ["Usage of serverside APIs, jQuery and Pure framework","Usage of local storage, basic js, and third-party API","Usage of basic JavaScript","Usage of Node and Express","Full stack webpage connected to heroku using JAWS DB"];
+   let pImage = ["mugs.jpg","iconfinder_calendar_285670.png","733219.jpg","#","Burger.jpg"];
+   let pLink = ["https://j-favorito.github.io/Project-1/","https://j-favorito.github.io/Homework-5/","https://j-favorito.github.io/Homework-3/","https://favorite-note-taker.herokuapp.com/","https://burger-maker-5000.herokuapp.com/"]
    console.log("script is working");
    for (let i = 0; i < projectNumber; i++) {
       let listElement = $("<a>");
